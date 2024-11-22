@@ -19,13 +19,13 @@
 <!-- Bootstrap JavaScript -->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-  <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
     crossorigin="anonymous"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-    crossorigin="anonymous"></script> -->
+    crossorigin="anonymous"></script> 
 </head>
 
 <body>
@@ -39,6 +39,41 @@
   <!-- Bootstrap JavaScript Libraries -->
 
   <style>
+    
+
+    @media (max-width: 768px) {
+    /* Stack cards vertically for tablets and smaller devices */
+    .container .card, .container1 .card {
+      width: 100%;
+      margin: 10px 0;
+    }
+
+    /* Center-align buttons and text in smaller screens */
+    .card-body {
+      text-align: center;
+    }
+    .card .btn {
+      margin: 10px auto;
+    }
+  }
+
+  @media (max-width: 576px) {
+    /* Further adjustments for extra small devices */
+    .row.g-3 .col-md-3 {
+      width: 100%;
+    }
+
+    .card-title {
+      font-size: 1rem;
+    }
+
+    .card-text {
+      font-size: 0.9rem;
+    }
+  }
+
+
+  
     i {
       height: 326px;
     }
