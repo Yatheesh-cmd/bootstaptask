@@ -57,8 +57,10 @@
     }
   }
 
+
+
   @media (max-width: 576px) {
-    /* Further adjustments for extra small devices */
+    
     .row.g-3 .col-md-3 {
       width: 100%;
     }
@@ -71,6 +73,49 @@
       font-size: 0.9rem;
     }
   }
+  .card-img-top {
+    height: auto; 
+  }
+
+  .card-body {
+    text-align: center; 
+  }
+
+
+  .btn1 {
+  display: block;
+  margin: 10px auto;
+  width: 25%;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .btn1 {
+    width: 200px;
+    margin: 10px auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .btn1 {
+    width: 250px;
+    margin: 5px auto;
+  }
+}
+
+
+
+
+
+  @media (max-width: 768px) {
+  .card {
+    width: 100%; 
+    margin-bottom: 15px; 
+  }
+}
+
+
+
 
 
   
@@ -206,12 +251,12 @@
   </div>
 
   </div>
-  <div class="container1 mx-3 mt-3  d-flex justify-content-center">
-    <div class="card " style=" height:400px; width:600px; margin-right:15px;">
-      <img class="card-img-top" src="./Screenshot 2024-11-20 172343.png" alt="Card image"
-        style="width:100%; height:180px;">
-      <div class="card-body">
-        <h4 class="card-title text-secondary">Parallax Layout</h4>
+  <div class="container1 card1 mx-3 mt-3  d-flex justify-content-center">
+    <div class="card  " style=" height:400px; width:600px; margin-right:15px;">
+      <img class="card-img-top1" src="./Screenshot 2024-11-20 172343.png" alt="Card image"
+        style="width:100%; ">
+      <div class="card-body1">
+        <h4 class="card-title text-secondary">Left side Layout</h4>
         <p class="card-text">Morbi sagittis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus
           ullamcorper auctor. Praesent quis velit neque. Quisque semper porta nisi vitae suscipit. Duis lectus magna,
           ornare ac scelerisque
@@ -219,15 +264,15 @@
       </div>
     </div>
     <div class="card  " style=" height:400px; width:600px;">
-      <img class="card-img-top" src="./Screenshot 2024-11-20 172420.png" alt="Card image"
-        style="width:100%; height:180px;">
-      <div class="card-body">
-        <h4 class="card-title text-secondary">Parallax Layout</h4>
+      <img class="card-img-top1" src="./Screenshot 2024-11-20 172420.png" alt="Card image"
+        style="width:100%;  ">
+      <div class="card-body1">
+        <h4 class="card-title text-secondary">Right side Layout</h4>
         <p class="card-text">Morbi sagittis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus
           ullamcorper auctor. Praesent quis velit neque. Quisque semper porta nisi vitae suscipit. Duis lectus magna,
           ornare ac scelerisque
         </p>
-        <a href="#" class="btn btn-light" style="margin-left:320px;">Red Button</a>
+        <a href="#" class="btn btn1 btn-light">Read more</a>
       </div>
     </div>
   </div>
