@@ -201,13 +201,13 @@
       margin-top: 30px;
     }
 
-    .cont {
+    /* .cont {
       background-image: url(./childs.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
       height: 80%;
-    }
+    } */
 
     textarea {
       resize: none;
@@ -412,45 +412,42 @@
     </div>
   </div>
 
-  <div class="container cont">
-    <div class="form-container">
-      <h1 class="text-center text-light fw-bold" style="text-shadow: 2px 2px 3px rgb(0, 8, 255);">CONTACT FORM</h1>
-      <div class="forp"  style="border:1px solid rgb(137, 118, 118); opacity:0.5">
-        <p class="text-center bg-light" style="margin-top: 20px; margin-bottom: 50px;">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-          consequatur accusamus incidunt corporis, itaque, voluptates maiores
-          quas iste fugit voluptatem mollitia placeat quidem accusantium maiores
-          voluptates Lorem ipsum dolor sit amet consectetur adipisicing elit. Est asperiores quo mollitia! Accusantium unde aut corrupti mollitia soluta iure, similique, aspernatur ad voluptate, debitis natus. Ea veniam vel sint sit!
-        </p>
-      </div>
-      <form>
-        <div class="row mb-3">
-          <!-- Name input -->
-          <div class="col-md-6">
-            <input type="text" class="form-control" placeholder="Name" name="name" />
-          </div>
-          <!-- Textarea -->
-          <div class="col-md-6">
-            <textarea class="form-control" placeholder="Your message here..." rows="2"></textarea>
-          </div>
-        </div>
+  
 
-        <div class="row mb-3">
-          <!-- Email input -->
-          <div class="col-md-6">
-            <input type="email" class="form-control" placeholder="Email" name="email" />
-          </div>
-          <!-- Subject input -->
-          <div class="col-md-6">
-            <input type="text" class="form-control" placeholder="Subject" name="subject" />
-          </div>
-        </div>
-        <div class="d-grid col-md-4 d-flex justify-content-start">
-          <button class="btn btn-dark " type="submit">Submit</button>
-        </div>
-      </form>
-    </div>
+  <!--contact form-->
+  <div class="bg-dark text-white d-flex align-items-center justify-content-center" style="background: url('./childs.jpg') no-repeat center center / cover; height: 700px;">
+  <div class="contform container">
+  <h1 class="text-info text-center mb-5 fw-bold" style="text-shadow: 2px 2px 3px rgb(135, 8, 255);">Contact Form</h1>
+  <div class="container form-container">
+  <div class="para-box text-center fs-5">
+  <p class=" text-center  " style=" color:black; border:1px solid white; opacity:0.4; border-radius: 5px; background-color: rgb(198, 220, 239);">  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et perspiciatis quidem praesentium delectus atque officiis itaque ipsa voluptates eveniet ea laudantium, temporibus quasi, provident eligendi asperiores repudiandae eos earum vel?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione consequatur accusamus incidunt corporis, itaque, voluptates maiores quas iste fugit voluptatem mollitia placeat quidem accusantium maiores voluptates labore. </p>
   </div>
+  <form class="text-center mt-3">
+  <div class="row g-4">
+  <div class="col-md-6">
+  <div class="mb-3">
+  <input type="text" class="form-control" id="name" placeholder="Name">
+  </div>
+  <div class="mb-3">
+  <input type="email" class="form-control" id="email" placeholder="Email">
+  </div>
+  <div class="mb-3">
+  <input type="text" class="form-control" id="subject" placeholder="Subject">
+  </div>
+  </div>
+  <div class="col-md-6 text-start">
+  <div class="mb-3">
+  <textarea class="form-control" id="message" placeholder="Your message here..."></textarea>
+  </div>
+  <button type="submit" class="btn btn-dark" style="border:2px solid white; padding-left:30px; padding-right:30px;"id="sendbtn">Send</button>
+  </div>
+  </div>
+  </form>
+  </div>
+  </div>
+  </div>
+
+
 
 
 
