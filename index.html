@@ -10,22 +10,22 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
 
-    <!-- jQuery (required for Bootstrap 4) -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- jQuery (required for Bootstrap 4) -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-<!-- Popper.js (required for Bootstrap 4) -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <!-- Popper.js (required for Bootstrap 4) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 
-<!-- Bootstrap JavaScript -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Bootstrap JavaScript -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
     crossorigin="anonymous"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-    crossorigin="anonymous"></script> 
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -39,96 +39,117 @@
   <!-- Bootstrap JavaScript Libraries -->
 
   <style>
-    
-    .card{background-color: rgb(221, 226, 230);}
-    .c1{background-color: aliceblue;}
-    .btnr:hover{background-color: rgb(210, 214, 218);}
-
-    @media (max-width: 768px) {
-    /* Stack cards vertically for tablets and smaller devices */
-    .container .card, .container1 .card {
-      width: 100%;
-      margin: 10px 0;
+    .card {
+      background-color: rgb(221, 226, 230);
     }
 
-    /* Center-align buttons and text in smaller screens */
+    .c1 {
+      background-color: aliceblue;
+    }
+
+    .btnr:hover {
+      background-color: rgb(210, 214, 218);
+    }
+
+    @media (max-width: 768px) {
+
+      /* Stack cards vertically for tablets and smaller devices */
+      .container .card,
+      .container1 .card {
+        width: 100%;
+        margin: 10px 0;
+      }
+
+      /* Center-align buttons and text in smaller screens */
+      .card-body {
+        text-align: center;
+      }
+
+      .card .btn {
+        margin: 10px auto;
+      }
+    }
+
+
+
+    @media (max-width: 576px) {
+
+      .row.g-3 .col-md-3 {
+        width: 100%;
+      }
+
+      .card-title {
+        font-size: 1rem;
+      }
+
+      .card-text {
+        font-size: 0.9rem;
+      }
+    }
+
+    .card-img-top {
+      height: auto;
+    }
+
     .card-body {
       text-align: center;
     }
-    .card .btn {
+
+
+    .btn1 {
+      display: block;
       margin: 10px auto;
-    }
-  }
-
-
-
-  @media (max-width: 576px) {
-    
-    .row.g-3 .col-md-3 {
-      width: 100%;
+      width: 25%;
+      text-align: center;
     }
 
-    .card-title {
-      font-size: 1rem;
+    @media (min-width: 768px) {
+      .btn1 {
+        width: 200px;
+        margin: 10px auto;
+      }
     }
 
-    .card-text {
-      font-size: 0.9rem;
+    @media (min-width: 1200px) {
+      .btn1 {
+        width: 250px;
+        margin: 5px auto;
+      }
     }
-  }
-  .card-img-top {
-    height: auto; 
-  }
-
-  .card-body {
-    text-align: center; 
-  }
-
-
-  .btn1 {
-  display: block;
-  margin: 10px auto;
-  width: 25%;
-  text-align: center;
-}
-
-@media (min-width: 768px) {
-  .btn1 {
-    width: 200px;
-    margin: 10px auto;
-  }
-}
-
-@media (min-width: 1200px) {
-  .btn1 {
-    width: 250px;
-    margin: 5px auto;
-  }
-}
 
 
 
 
 
-  @media (max-width: 768px) {
-  .card {
-    width: 100%; 
-    margin-bottom: 15px; 
-  }
-}
+    @media (max-width: 768px) {
+      .card {
+        width: 100%;
+        margin-bottom: 15px;
+      }
+    }
 
 
 
 
-  
+
     i {
       height: 326px;
     }
-     .nav-link{color:white; border:1px solid rgb(189, 175, 175);}
-    a{margin-right:12px;}
-    a:hover{background-color:rgba(91, 91, 91, 0.937);} 
 
-   
+    .nav-link {
+      color: white;
+      border: 1px solid rgb(189, 175, 175);
+    }
+
+    a {
+      margin-right: 12px;
+    }
+
+    a:hover {
+      background-color: rgba(91, 91, 91, 0.937);
+    }
+
+
 
     .btn {
       display: grid;
@@ -167,39 +188,62 @@
       margin-right: auto;
       margin-top: 30px;
     }
-    .lastb{background-color: black; color:white; margin-top:5px; border-radius: 7px; padding:5px 30px 5px 30px;}
-    .lh1{margin-top:30px;}
+
+    .lastb {
+      background-color: black;
+      color: white;
+      margin-top: 5px;
+      border-radius: 7px;
+      padding: 5px 30px 5px 30px;
+    }
+
+    .lh1 {
+      margin-top: 30px;
+    }
+
+    .cont {
+      background-image: url(./childs.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 80%;
+    }
+
+    textarea {
+      resize: none;
+    }
   </style>
 
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">
-  <div class="container">
-    <!-- Toggler for mobile view -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container">
+      <!-- Toggler for mobile view -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <!-- Collapsible menu -->
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav mx-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Homepage</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">External</a>
-        </li>
-      </ul>
+      <!-- Collapsible menu -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Homepage</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">External</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
 
 
@@ -255,7 +299,8 @@
   </div>
   <div class="container1 card1 mx-3 mt-3 d-flex flex-wrap justify-content-center">
     <div class="card col-md-6 d-flex flex-column" style="max-width: 600px; flex: 1; margin: 10px;">
-      <img class="card-img-top" src="./Screenshot 2024-11-20 172343.png" alt="Card image" style="object-fit: cover; height: 300px;">
+      <img class="card-img-top" src="./Screenshot 2024-11-20 172343.png" alt="Card image"
+        style="object-fit: cover; height: 300px;">
       <div class="card-body">
         <h4 class="card-title text-primary text-center">Left side Layout</h4>
         <p class="card-text">
@@ -265,7 +310,8 @@
       </div>
     </div>
     <div class="card col-md-6 d-flex flex-column" style="max-width: 600px; flex: 1; margin: 10px;">
-      <img class="card-img-top" src="./Screenshot 2024-11-20 172420.png" alt="Card image" style="object-fit: cover; height: 300px;">
+      <img class="card-img-top" src="./Screenshot 2024-11-20 172420.png" alt="Card image"
+        style="object-fit: cover; height: 300px;">
       <div class="card-body">
         <h4 class="card-title text-danger text-center">Right side Layout</h4>
         <p class="card-text">
@@ -276,7 +322,7 @@
       </div>
     </div>
   </div>
-  
+
 
   <div class="card">
     <img class="card-img-top" src="./img-t.jpg" alt="Card image" style="width:100%; height:380px;">
@@ -288,7 +334,7 @@
         </p>
       </div>
 
-    </div> 
+    </div>
   </div>
 
   <div class="container mt-4">
@@ -312,7 +358,8 @@
             <h5 class="card-title">COLUMN TWO</h5>
             <p class="card-text">take ac odio sed fucuibus dolor sit amet consectetur adipisicing elit. Consici
               vghsvcndis corrupti enim heutfshvdlit.ghcwddcghcx hgsfdjbvfff fsytfCeiciendirectt.</p>
-            <a href="" class="btn  bg-light" style="border:1px solid rgb(0, 0, 0); margin-right:30px; margin-left:30px; btn:hover{background-color: aliceblue;}">Read
+            <a href="" class="btn  bg-light"
+              style="border:1px solid rgb(0, 0, 0); margin-right:30px; margin-left:30px; btn:hover{background-color: aliceblue;}">Read
               it</a>
           </div>
         </div>
@@ -359,11 +406,53 @@
           </p>
           <!-- <a href="#" class="btn btn-outline-secondary"
             style=" display:flex; margin-right:800px; margin-left: 30px;">Button </a> -->
-            <a href="#" class="btn btn-outline-secondary d-block mx-auto mt-3">Button</a>
+          <a href="#" class="btn btn-outline-secondary d-block mx-auto mt-3">Button</a>
         </div>
       </div>
     </div>
   </div>
+
+  <div class="container cont">
+    <div class="form-container">
+      <h1 class="text-center text-light fw-bold" style="text-shadow: 2px 2px 3px rgb(0, 8, 255);">CONTACT FORM</h1>
+      <div class="forp"  style="border:1px solid rgb(137, 118, 118); opacity:0.5">
+        <p class="text-center bg-light" style="margin-top: 20px; margin-bottom: 50px;">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+          consequatur accusamus incidunt corporis, itaque, voluptates maiores
+          quas iste fugit voluptatem mollitia placeat quidem accusantium maiores
+          voluptates Lorem ipsum dolor sit amet consectetur adipisicing elit. Est asperiores quo mollitia! Accusantium unde aut corrupti mollitia soluta iure, similique, aspernatur ad voluptate, debitis natus. Ea veniam vel sint sit!
+        </p>
+      </div>
+      <form>
+        <div class="row mb-3">
+          <!-- Name input -->
+          <div class="col-md-6">
+            <input type="text" class="form-control" placeholder="Name" name="name" />
+          </div>
+          <!-- Textarea -->
+          <div class="col-md-6">
+            <textarea class="form-control" placeholder="Your message here..." rows="2"></textarea>
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <!-- Email input -->
+          <div class="col-md-6">
+            <input type="email" class="form-control" placeholder="Email" name="email" />
+          </div>
+          <!-- Subject input -->
+          <div class="col-md-6">
+            <input type="text" class="form-control" placeholder="Subject" name="subject" />
+          </div>
+        </div>
+        <div class="d-grid col-md-4 d-flex justify-content-start">
+          <button class="btn btn-dark " type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
 
   <!-- <div class="container-fluid" style="position:absolute; margin: 0; padding: 0;">
 
@@ -418,19 +507,19 @@
 
 
 
-  </div>
- -->
- <div class="container-fluid" style="background-image: url('./childs.jpg'); height: 70vh; background-repeat: no-repeat; background-size: cover; background-position: center;">
+  </div> -->
+
+  <!-- <div class="container-fluid" style="background-image: url('./childs.jpg'); height: 70vh; background-repeat: no-repeat; background-size: cover; background-position: center;">
   <div class="row justify-content-center align-items-center h-100">
     <div class="col-md-6 text-white">
       <h1 class="text-center lh1" style="text-shadow: 2px 2px 3px rgb(255, 7, 90); margin-top:20px;">CONTACT FORM</h1>
       <form>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-6">
             <input type="text" class="form-control" placeholder="Name">
           </div>
         </div>
-          <div class="col-md-8">
+          <div class="col-md-6">
             <textarea class="form-control" placeholder="Your message here" rows="6" style="margin-top:16px;"></textarea>
           </div>
         
@@ -453,7 +542,7 @@
       </form>
     </div>
   </div>
-</div>
+</div> -->
 
 
 
